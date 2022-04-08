@@ -1,0 +1,331 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+.navbar {
+  background: #f1f3ff;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  margin-right: 32px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.daftar {
+  color: white;
+  background-color: #5cb85f;
+  border: none;
+  font-family: Helvetica;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+}
+.col button {
+  width: 140px;
+  height: 36px;
+  background: #5cb85f;
+  border-radius: 2px;
+  color: white;
+  background-color: #5cb85f;
+  border: none;
+  font-family: Helvetica;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.welcome {
+  margin-top: 50px;
+  padding: 30px;
+  background: #f1f3ff;
+  height: 437px;
+}
+.col {
+  padding-left: 175px;
+}
+.col p {
+  width: 500px;
+}
+h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+  padding-top: 70px;
+}
+p {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+}
+.col img {
+  width: 704px;
+  height: 407px;
+}
+.pic img {
+  width: 459px;
+  height: 428px;
+  margin-right: 80px;
+}
+.pic {
+  margin-top: 100px;
+}
+.text {
+  margin-top: 130px;
+  width: 468px;
+}
+.text th {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  padding-bottom: 25px;
+}
+.text td {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.text img {
+  width: 24px;
+  height: 24px;
+  margin: 10px 15px 10px 0px;
+}
+
+.why {
+  margin-left: 370px;
+}
+.why h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+.why p {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.reason {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 15px;
+  width: 268px;
+  height: 196px;
+  border-radius: 8px;
+}
+.card h5 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card p {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.card-img-top {
+  width: 32px;
+  height: 32px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.rent-now {
+  background: #0d28a6;
+  color: white;
+  text-align: center;
+  width: 1168px;
+  height: 326px;
+  border-radius: 13px;
+  margin-left: 350px;
+}
+
+.rent-now h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+}
+.rent-now p {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  width: 468px;
+  height: 40px;
+  margin-left: 350px;
+  margin-top: 20px;
+}
+
+.rent-now button {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  width: 140px;
+  height: 36px;
+  background: #5cb85f;
+  border-radius: 2px;
+  margin-top: 40px;
+}
+
+.faq {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  height: 500px;
+}
+
+.faq-left h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.faq-left p {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.faq-right {
+  margin-top: 75px;
+  margin-left: 170px;
+}
+.accordion {
+  width: 668px;
+  height: 56px;
+}
+.accordion-item {
+  margin-bottom: 16px;
+  border: 1px solid #d4d4d4;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.alamat {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  width: 268px;
+  height: 40px;
+  margin-right: 150px;
+}
+
+.features {
+  margin-right: 150px;
+}
+.features p {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.socmed {
+  margin-right: 150px;
+}
+.socmed p {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.socmed img {
+  margin-right: 16px;
+}
+
+.row {
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.sewa {
+  color: white;
+  border: none;
+}
+.carousel-item .card {
+  width: 100%;
+  background: #f1f3ff;
+  border: none;
+}
+.card-title img {
+  width: 16px;
+  height: 16px;
+}
+.img-fluid {
+  width: 80px;
+  height: 80px;
+  margin-top: 50px;
+}
+.slider {
+  text-align: -webkit-center;
+  margin-bottom: 100px;
+}
+.card-text {
+  text-align: left;
+}
+
+.head {
+  text-align: center;
+}
+
+strong {
+  font-weight: bold;
+}
